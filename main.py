@@ -25,7 +25,7 @@ def main():
     env = setup()
     print(f"Trabajando en entorno: {env}")
     operacion = "X"
-    print("Selecciona una operación: +, -, *, /")
+    print("Selecciona una operación para que sea realizada: +, -, *, /")
     operacion = input("Ingrese la operación: ") 
     if operacion == "+":
         result = suma(5, 3)
