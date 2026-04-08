@@ -2,6 +2,20 @@ def suma(a, b):
     return a + b
 
 
+def resta(a, b):
+    return a - b
+
+
+def multiplicacion(a, b):
+    return a * b
+
+
+def division(a, b):
+    if b == 0:
+        return "Error: División por cero"
+    return a / b
+
+
 def main():
     print("Hello from is3-clase-versionado-26!")
     env = setup()
@@ -11,7 +25,7 @@ def main():
 
 
 def setup():
-    env = 'dev'
+    env = "dev"
     return env
 
 
