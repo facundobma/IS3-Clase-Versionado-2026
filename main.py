@@ -1,16 +1,20 @@
-def suma(a, b):
+def suma(a: float, b: float) -> float:
+    """Retorna la suma de dos números."""
     return a + b
 
 
-def resta(a, b):
+def resta(a: float, b: float) -> float:
+    """Retorna la resta de dos números."""
     return a - b
 
 
-def multiplicacion(a, b):
+def multiplicacion(a: float, b: float) -> float:
+    """Retorna la multiplicación de dos números."""
     return a * b
 
 
-def division(a, b):
+def division(a: float, b: float) -> float | str:
+    """Retorna la división de dos números. Retorna un mensaje de error si b es cero."""
     if b == 0:
         return "Error: División por cero"
     return a / b
